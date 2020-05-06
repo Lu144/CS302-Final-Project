@@ -1,5 +1,5 @@
 //Name: CS302 Final Project - Travelling Salesman Problem
-//Purpose:
+//Purpose: Get familiarized with graphs and using graphs
 
 #include <iostream>
 #include <vector>
@@ -13,6 +13,8 @@ using namespace std;
 void string_permutation(string& original, string& perm, ostream& outfile);
  
 int main() {
+	Salesman salesman;
+	
 	string original = "ABCD";		//Four letters represents the four cities not including Reno
 	string perm;   
 	ofstream outfile;
@@ -21,13 +23,8 @@ int main() {
 	string_permutation(original,perm, outfile);
  	outfile.close();
  	
- 	Graph g(5);
-	add_vertex(0, 0);		//Reno
-	add_vertex(0, 704);		//Seattle
-	add_vertex(0, -439);		//Las Vegas
-	add_vertex(518, 0);		//Salt Lake City
-	add_vertex(-218, 0);		//San Francisco
- 
+ 	
+	
 	return 0;
 }
 
