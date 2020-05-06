@@ -1,4 +1,5 @@
-
+//Name: CS302 Final Project - Travelling Salesman Problem
+//Purpose:
 
 #include <iostream>
 #include <vector>
@@ -16,7 +17,7 @@ int main() {
 	string perm;   
 	ofstream outfile;
 	outfile.open("Possible_Routes.txt");
- 
+
 	string_permutation(original,perm, outfile);
  	outfile.close();
  	
