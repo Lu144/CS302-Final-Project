@@ -1,0 +1,26 @@
+The possible routes are: 
+
+Reno -> San Francisco -> Salt Lake City -> Seattle -> Las Vegas -> Reno
+Reno -> San Francisco -> Salt Lake City -> Las Vegas -> Seattle -> Reno
+Reno -> San Francisco -> Seattle -> Salt Lake City -> Las Vegas -> Reno
+Reno -> San Francisco -> Seattle -> Las Vegas -> Salt Lake City -> Reno
+Reno -> San Francisco -> Las Vegas -> Salt Lake City -> Seattle -> Reno
+Reno -> San Francisco -> Las Vegas -> Seattle -> Salt Lake City -> Reno
+Reno -> Salt Lake City -> San Francisco -> Seattle -> Las Vegas -> Reno
+Reno -> Salt Lake City -> San Francisco -> Las Vegas -> Seattle -> Reno
+Reno -> Salt Lake City -> Seattle -> San Francisco -> Las Vegas -> Reno
+Reno -> Salt Lake City -> Seattle -> Las Vegas -> San Francisco -> Reno
+Reno -> Salt Lake City -> Las Vegas -> San Francisco -> Seattle -> Reno
+Reno -> Salt Lake City -> Las Vegas -> Seattle -> San Francisco -> Reno
+Reno -> Seattle -> San Francisco -> Salt Lake City -> Las Vegas -> Reno
+Reno -> Seattle -> San Francisco -> Las Vegas -> Salt Lake City -> Reno
+Reno -> Seattle -> Salt Lake City -> San Francisco -> Las Vegas -> Reno
+Reno -> Seattle -> Salt Lake City -> Las Vegas -> San Francisco -> Reno
+Reno -> Seattle -> Las Vegas -> San Francisco -> Salt Lake City -> Reno
+Reno -> Seattle -> Las Vegas -> Salt Lake City -> San Francisco -> Reno
+Reno -> Las Vegas -> San Francisco -> Salt Lake City -> Seattle -> Reno
+Reno -> Las Vegas -> San Francisco -> Seattle -> Salt Lake City -> Reno
+Reno -> Las Vegas -> Salt Lake City -> San Francisco -> Seattle -> Reno
+Reno -> Las Vegas -> Salt Lake City -> Seattle -> San Francisco -> Reno
+Reno -> Las Vegas -> Seattle -> San Francisco -> Salt Lake City -> Reno
+Reno -> Las Vegas -> Seattle -> Salt Lake City -> San Francisco -> Reno
