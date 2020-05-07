@@ -32,7 +32,7 @@ int main() {
 	
 	strcpy(print,result.c_str());
 	
-	for(int p =0; p<5 ; p++) {
+	for(int p =0; p<4 ; p++) {
 		cout << print[p];
 	}
 	
