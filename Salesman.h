@@ -12,6 +12,7 @@ class Salesman {
     Salesman(int num_cities) {
       cities = num_cities;
       setDistances();
+      min_distance();
     }
     void setDistances() {
       distances = {{0,218,439,518,704},
@@ -20,13 +21,17 @@ class Salesman {
                   {518,736,421,0,830},
                   {704,808,1125,830,0}};
     }
-	 
+
+    void min_distance() {
+	int temp;
+	
+    }
   
   private:
     int cities;
     int distances[5][5];
     int final_route[5];
-    
+    int distance;
   
 }
   
