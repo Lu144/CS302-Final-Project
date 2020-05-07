@@ -1,0 +1,17 @@
+LV to Seattle: 1125
+LV to Reno: 439
+LV to SF: 569
+LV to Salt Lake: 421
+
+Seattle to Reno: 704
+Seattle to SF: 808
+Seattle to Salt Lake: 830
+
+Reno to SF: 218
+Reno to Salt Lake: 518
+
+SF to Salt Lake: 736
+
+
+
+**Values are in miles.
