@@ -1,5 +1,5 @@
-projF: main.o 
-	g++ main.o -o projF
+projF: Main.o 
+	g++ Main.o -o projF
 
-main: main.cpp 
-	g++ -c main.cpp -o main.o
+Main: Main.cpp 
+	g++ -c Main.cpp -o Main.o
