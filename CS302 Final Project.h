@@ -5,26 +5,25 @@
 #include <vector>
 #include <string>
 #include <bits/stdc++.h>
-#include "boost/graph/adjacency_list.hpp"
-#include "boost/graph/dijkstra_shortest_paths.hpp"
+#include <boost/graph/adjacency_list.hpp>
+#include <boost/graph/dijkstra_shortest_paths.hpp>
 using namespace std; 
 
 
 void string_permutation(string& original, string& perm, ostream& outfile);
- 
+
 int main() {
-	Salesman salesman;
-	
 	string original = "ABCD";		//Four letters represents the four cities not including Reno
 	string perm;   
 	ofstream outfile;
 	outfile.open("Possible_Routes.txt");
-
+	outfile << "The possible routes are: " << endl << endl;
 	string_permutation(original,perm, outfile);
- 	outfile.close();
- 	
- 	
 	
+	//Graph stuff
+	
+ 	outfile.close();
+ 
 	return 0;
 }
 
@@ -63,7 +62,3 @@ void string_permutation(string& original, string& perm, ostream& outfile) {
 		string_permutation(original2,perm2, outfile);
 	} 
 }
-
-
-
-
